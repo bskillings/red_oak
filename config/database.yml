@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: red_oak_production
-  username: red_oak
-  password: <%= ENV['RED_OAK_DATABASE_PASSWORD'] %>
+  #username: red_oak
+  #password: red_oak
